@@ -1,6 +1,6 @@
 FROM centos:8
-RUN yum install -y epel-release
-RUN yum install nginx -y
+RUN dnf install -y epel-release
+RUN dnf install nginx -y
 RUN rm -rf /usr/share/nginx/html/*
 RUN echo "<h1>Hello from Nginx in a CentOS 8 container!</h1>" > /usr/share/nginx/html/index.html
 # daemon off makes our container running and attached to the screen
