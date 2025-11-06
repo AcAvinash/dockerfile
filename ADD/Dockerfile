@@ -1,5 +1,6 @@
 
 From almalinux:8
 
-ADD hello-2.1.tar.gz /tmp
+ADD https://github.com/AcAvinash/dockerfile/blob/main/README.MD /tmp/README.MD
+ADD sample-1.tar /tmp
 
