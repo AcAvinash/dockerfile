@@ -1,0 +1,7 @@
+
+
+FROM almalinux:8
+
+LABEL INSTRUCTOR=AVINASH \
+      COURSE=DEVOPS \
+      DURATION=110HRS
